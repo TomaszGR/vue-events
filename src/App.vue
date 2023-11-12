@@ -7,8 +7,8 @@ import { RouterLink, RouterView } from 'vue-router'
     <header>
       <div class="wrapper">
         <nav>
-          <RouterLink :to="{ name: 'event-list' }">Events</RouterLink> |
-          <RouterLink :to="{ name: 'about' }">About</RouterLink>
+          <router-link :to="{ name: 'EventList' }">Events</router-link> |
+          <router-link :to="{ name: 'About' }">About</router-link>
         </nav>
       </div>
     </header>
